@@ -56,7 +56,7 @@ public class MenuManager : MonoBehaviour
 
     public void QuitGame()
     {
-        AudioManager.Instance.Play("Exit");
+        AudioManager.Instance.Play("Goodbye");
         Application.Quit();
     }
     

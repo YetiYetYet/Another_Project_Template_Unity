@@ -134,7 +134,7 @@ namespace Audio
         {
             Sound sound = Array.Find(sounds, s => s.name == soundName);
             if (sound != null) return sound;
-            Debug.LogError("Sound " + name + " not found...");
+            Debug.LogError("Sound " + soundName + " not found...");
             return null;
         }
     }
